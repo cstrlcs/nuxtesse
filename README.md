@@ -10,7 +10,7 @@
 
 ## Warning ⚠️
 
-This is still a working in progress project. There are a lot of features that I am still working on.
+This is still a work in progress project. There are a lot of features that I am still working on.
 
 ## Features
 
