@@ -1,0 +1,21 @@
+{
+  "prettier.enable": false,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "files.associations": {
+    "*.css": "postcss"
+  },
+  "cSpell.words": [
+    "antfu",
+    "intlify",
+    "nuxt",
+    "Nuxtesse",
+    "nuxtjs",
+    "pinia",
+    "taze",
+    "vueuse"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "csstools.postcss",
+    "davidanson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "naumovs.color-highlight",
+    "streetsidesoftware.code-spell-checker",
+    "stylelint.vscode-stylelint",
+    "usernamehw.errorlens",
+    "vue.volar",
+    "editorconfig.editorconfig"
+  ]
+}
