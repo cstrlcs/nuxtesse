@@ -12,10 +12,9 @@
     "vue"
   ],
   "scripts": {
-    "build": "nuxt build",
     "dev": "nuxt dev",
     "postinstall": "nuxt prepare",
-    "generate": "nuxt generate",
+    "build": "nuxt generate",
     "lint": "eslint .",
     "test": "vitest",
     "up": "taze major -I"
