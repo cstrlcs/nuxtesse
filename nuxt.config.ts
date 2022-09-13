@@ -10,9 +10,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
   ],
   head: {
-    meta: [
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-    ],
+    meta: [],
     link: [],
     style: [],
     script: [],
@@ -39,10 +37,5 @@ export default defineNuxtConfig({
   },
   colorMode: {
     classSuffix: '',
-  },
-  runtimeConfig: {
-    public: {
-      BASE_URL: process.env.BASE_URL,
-    },
   },
 })

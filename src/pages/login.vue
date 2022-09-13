@@ -1,9 +1,17 @@
 <script lang="ts" setup>
+import { useUserStore } from '~/stores'
+
 definePageMeta({
   layout: 'login',
 })
 
-const onSubmit = (e: string) => {}
+const router = useRouter()
+const user = useUserStore()
+
+const onSubmit = (e: string) => {
+  user.login(e)
+  router.push('/')
+}
 </script>
 
 <template>
