@@ -1,6 +1,4 @@
 <script lang="ts" setup>
-import { useUserStore } from '~/stores'
-
 definePageMeta({
   middleware: 'auth',
 })
@@ -18,6 +16,10 @@ const user = useUserStore()
       Last time you logged in was {{ new Date(user.data.loginDate).toLocaleDateString() }}.
     </p>
     <div class="w-full my-4 border-t border-gray-300 dark:border-stone-800" />
-    <ThemeButton />
+
+    <div class="flex gap-2">
+      <LogoutButton />
+      <ThemeButton />
+    </div>
   </Card>
 </template>

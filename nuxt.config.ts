@@ -18,6 +18,15 @@ export default defineNuxtConfig({
     charset: 'utf-8',
     viewport: 'width=device-width, initial-scale=1',
   },
+  imports: {
+    autoImport: true,
+    dirs: [
+      './composables',
+      './stores',
+      './providers',
+      './services',
+    ],
+  },
   ssr: false,
   typescript: {
     shim: false,

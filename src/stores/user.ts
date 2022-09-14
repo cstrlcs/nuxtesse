@@ -13,6 +13,10 @@ export default defineStore('user', () => {
     }
   }
 
-  return { data, login }
+  const logout = () => {
+    data.value = null
+  }
+
+  return { data, login, logout }
 })
 
